@@ -350,6 +350,7 @@ img {
 .questions div{
     padding: 20px 30px;
     margin: 5px;
+    margin-right: 115px;
     font-size: 1.6rem;
     background-color: #303030;
     color: white;
@@ -357,8 +358,29 @@ img {
     width: 50%;
 }
 .questions div button{
-    width: 100%;
+    width:225%
 }
+
+
+.accordion div h2 button{
+    background-color: #303030 !important;
+    color: white;
+}
+.accordion div h2 button::after{
+    
+    background-color: white;
+    background-image: url(./images/plus-solid.svg);
+}
+
+.questions div{
+    background-color: #000000;
+    border: none;
+    padding: 3%;
+}
+.questions div div {
+    padding: 0px;
+}
+
 
 .input{
     display: flex;
